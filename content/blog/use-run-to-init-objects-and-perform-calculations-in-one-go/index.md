@@ -1,6 +1,9 @@
 ---
 title: "Use .run to init objects and perform calculations in one go"
 date: "2021-03-10"
+featuredImage:
+    src: "./images/back-to-the-future-car-sebastiano-piazzi.jpeg"
+    alt: "Photo by Sebastiano Piazzi on Unsplash"
 categories: 
   - "kotlin"
 ---

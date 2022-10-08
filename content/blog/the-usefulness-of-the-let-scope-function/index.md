@@ -1,6 +1,9 @@
 ---
 title: "The Usefulness of the .let Scope Function"
 date: "2021-03-11"
+featuredImage:
+    src: "./images/lotr-hobbit-thandy-yung.jpeg"
+    alt: "Photo by Thandy Yung on Unsplash"
 categories: 
   - "kotlin"
 ---

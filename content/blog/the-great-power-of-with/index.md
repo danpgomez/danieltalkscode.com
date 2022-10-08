@@ -1,6 +1,9 @@
 ---
 title: "The great power of .with"
 date: "2021-03-12"
+featuredImage:
+    src: "./images/avengers-ironman-ryan-yoo.jpeg"
+    alt: "Photo by Ryan Yoo on Unsplash"
 ---
 
 And now we've come to the last of the Kotlin scope functions in our journey: [`with()`](https://kotlinlang.org/docs/scope-functions.html#with). The context object is passed in as an argument to it, but inside the corresponding lambda you can access it as a receiver using the keyword `this`. Additionally, `with` as it turns out, is not an extension function, and it has two neat uses.

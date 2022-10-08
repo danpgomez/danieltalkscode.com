@@ -1,6 +1,9 @@
 ---
 title: "An important lesson for learning to code"
 date: "2020-07-24"
+featuredImage:
+    src: "./images/oguzhan-edman-misty-mountains.jpeg"
+    alt: "Photo by Oguzhan Edman on Unsplash"
 categories: 
   - "code"
 ---
