@@ -93,6 +93,14 @@ module.exports = {
                     frontmatter {
                       title
                       date
+                      categories
+                      featuredImage {
+                        src {
+                          childImageSharp {
+                            gatsbyImageData(aspectRatio: 1.5)
+                          }
+                        }
+                      }
                     }
                   }
                 }

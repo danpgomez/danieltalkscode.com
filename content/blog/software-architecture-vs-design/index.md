@@ -1,6 +1,9 @@
 ---
 title: "Software Architecture vs Design: Takeaways from my research"
 date: "2021-03-24"
+featuredImage:
+    src: "./images/building-architecture-patrick-baum.jpeg"
+    alt: "Photo by Patrick Baum on Unsplash"
 ---
 
 Since the beginning of my coding journey, I've heard terms such as MVC and MVVM, associated with the words "architecture" and "design pattern". In trying to get a deeper understanding of these I decided to go in search of a definition for software architecture and had difficulty finding a clear answer. With that said, I'd like to walk you through my research as well as my perspective from a beginner's mind.
@@ -38,7 +41,7 @@ Great! I think I get it now! Software architecture seems to be about agreeing on
 
 Bingo! The two concepts overlap in some areas and they're "two parts of one process." This was starting to make more sense now. I was still looking to connect one last piece of the puzzle: design patterns. I'd recently purchased a copy of Head First Design Patterns by Eric Freeman and Elisabeth Robson (older edition) and had already taken the [LinkedIn Learning Course](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fprogramming-foundations-design-patterns-2%3Ftrk%3Dshare_ent_url%26shareId%3DXwerVBIxRvOeHsmTM%252B1uKg%253D%253D&account=2138953) by the authors of the book. I haven't finished reading the book yet, but I did find a mention of the Model-View-Controller pattern in a chapter titled "Compound Patterns".
 
-[![](https://m.media-amazon.com/images/I/51rmlxN57sL.jpg)](https://www.amazon.com/dp/149207800X?tag=thebarlen-20&linkCode=osi&th=1&psc=1)
+[![Head First Design Patterns Book](https://m.media-amazon.com/images/I/51rmlxN57sL.jpg)](https://www.amazon.com/dp/149207800X?tag=thebarlen-20&linkCode=osi&th=1&psc=1)
 
 ![compound-patterns.jpg](./images/compound-patterns.jpeg)
 

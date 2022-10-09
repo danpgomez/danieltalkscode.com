@@ -97,7 +97,13 @@ export const pageQuery = graphql`
         featuredImage {
           src {
             childImageSharp {
-              gatsbyImageData
+              gatsbyImageData(
+                aspectRatio: 1.7
+                placeholder: BLURRED
+                blurredOptions: {width: 100}
+                transformOptions: {cropFocus: CENTER}
+                formats: AUTO
+              )
             }
           }
           alt

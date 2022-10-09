@@ -2,8 +2,8 @@
 title: "An important lesson for learning to code"
 date: "2020-07-24"
 featuredImage:
-    src: "./images/oguzhan-edman-misty-mountains.jpeg"
-    alt: "Photo by Oguzhan Edman on Unsplash"
+    src: "./images/lego-blocks-kelly-sikkema.jpeg"
+    alt: "Photo by Kelly Sikkema on Unsplash"
 categories: 
   - "code"
 ---

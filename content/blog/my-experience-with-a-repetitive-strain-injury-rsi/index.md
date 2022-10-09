@@ -1,6 +1,9 @@
 ---
 title: "My experience with a Repetitive Strain Injury (RSI)"
 date: "2019-11-20"
+featuredImage:
+    src: "./images/typing-laptop-courtney-corlew.jpeg"
+    alt: "Photo by Courtney Corlew on Unsplash"
 categories: 
   - "life"
 ---
@@ -13,7 +16,7 @@ Well, I never expected to be writing an article like this since I feel like I've
 
 They asked me about my current desk setup and so I began to describe how I have a very minimalist approach with only my laptop and a large monitor.
 
-![How to not set up your desk unless you want to have carpal tunnel.](https://images.squarespace-cdn.com/content/v1/524ccd92e4b0bcb12e08626f/1574278235634-FIXS77Q207A8Y0HRRQCN/processed_20191119_122154-01.jpeg)
+![How to not set up your desk unless you want to have carpal tunnel.](./images/my-laptop-setup.jpeg)
 
 How to not set up your desk unless you want to have carpal tunnel.
 

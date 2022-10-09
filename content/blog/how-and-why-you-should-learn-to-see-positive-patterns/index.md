@@ -1,6 +1,9 @@
 ---
 title: "How and why you should learn to see positive patterns"
 date: "2020-01-07"
+featuredImage:
+    src: "./images/hand-glasses-girl-edi-libedinsky.jpeg"
+    alt: "Photo by Edi Libedinsky on Unsplash"
 categories: 
   - "books"
 ---
