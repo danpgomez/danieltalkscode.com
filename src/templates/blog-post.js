@@ -5,6 +5,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Comments from "../components/comments"
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -60,6 +61,14 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
+      <script src="https://utteranc.es/client.js"
+        repo="danpgomez/danieltalkscode.com"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </script>
+      <Comments/>
     </Layout>
   )
 }
