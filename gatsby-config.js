@@ -129,7 +129,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `danieltalkscode`
+        shortname: `danieltalkscode-com`
       }
     },
   ],
