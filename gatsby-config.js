@@ -126,11 +126,5 @@ module.exports = {
         icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `danieltalkscode-com`
-      }
-    },
   ],
 }

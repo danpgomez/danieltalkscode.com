@@ -14,12 +14,6 @@ const BlogPostTemplate = ({
   const siteTitle = site.siteMetadata?.title || `Title`
   const postFeaturedImage = getImage(post.frontmatter.featuredImage.src)
 
-  let disqusConfig = {
-    url: `${site.siteUrl+location.pathname}`,
-    identifier: post.id,
-    title: post.title,
-  }
-
   return (
     <Layout location={location} title={siteTitle}>
       <article
@@ -31,7 +25,6 @@ const BlogPostTemplate = ({
           <GatsbyImage image={postFeaturedImage} alt={post.frontmatter.featuredImage.alt}/>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
-          <CommentCount config={disqusConfig} placeholder={'...'} />
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -68,7 +61,6 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
-      <Disqus config={disqusConfig} />
     </Layout>
   )
 }
