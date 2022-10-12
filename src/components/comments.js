@@ -12,7 +12,7 @@ export default class Comments extends Component {
         scriptEl.setAttribute("src", "https://utterance.es/client.js");
         scriptEl.setAttribute("crossorigin", "anonymous");
         scriptEl.setAttribute("async", true);
-        scriptEl.setAttribute("repo", "danpgomez/danieltalkscode.com");
+        scriptEl.setAttribute("repo", "danpgomez/danieltalkscode.com-comments");
         scriptEl.setAttribute("issue-term", "pathname");
         scriptEl.setAttribute("theme", "github-light");
         this.commentBox.current.appendChild(scriptEl);
