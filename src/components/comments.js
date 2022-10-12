@@ -9,7 +9,7 @@ export default class Comments extends Component {
 
     componentDidMount () {
         let scriptEl = document.createElement("script");
-        scriptEl.setAttribute("src", "https://utterance.es/client.js");
+        scriptEl.setAttribute("src", "https://utteranc.es/client.js");
         scriptEl.setAttribute("crossorigin", "anonymous");
         scriptEl.setAttribute("async", true);
         scriptEl.setAttribute("repo", "danpgomez/danieltalkscode.com-comments");
