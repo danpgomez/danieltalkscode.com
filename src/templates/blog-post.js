@@ -61,13 +61,6 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
-      <script src="https://utteranc.es/client.js"
-        repo="danpgomez/danieltalkscode.com"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-      </script>
       <Comments/>
     </Layout>
   )
