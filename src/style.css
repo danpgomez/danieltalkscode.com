@@ -120,7 +120,7 @@ h6 {
 h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
-  color: var(--color-heading-black);
+  color: var(--color-heading);
 }
 
 h2 {
@@ -283,7 +283,7 @@ a:focus {
   font-weight: var(--fontWeight-bold);
   font-family: var(--font-heading);
   text-decoration: none;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-3);
 }
 
 .bio {
@@ -324,11 +324,51 @@ a:focus {
 }
 
 pre[class*="language-"] {
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .gatsby-image-wrapper [data-main-image] {
-  border-radius: 20px;
+  border-radius: 8px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 3rem 0;
+  font-family: var(--post-font-family);
+}
+
+.footer section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.footer img {
+  display: inline-block;
+  max-height: 20px;
+  width: auto;
+}
+
+.footer nav {
+  display: flex;
+  gap: 0.25rem;
+  margin: 0 1rem;
+}
+
+.footer a,
+.footer span {
+  display: flex;
+  align-items: center;
+  color: var(--font-color-base);
+  font-size: 0.9rem;
+  line-height: 1.2;
+  padding: 0 0.5rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 /* Media queries */
@@ -341,5 +381,19 @@ pre[class*="language-"] {
   ul,
   ol {
     list-style-position: inside;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  ol {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  ol {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
   }
 }

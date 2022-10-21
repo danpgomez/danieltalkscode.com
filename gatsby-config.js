@@ -9,6 +9,8 @@ module.exports = {
     siteUrl: `https://danieltalkscode.com`,
     social: {
       twitter: `danieltalkscode`,
+      github: `danpgomez`,
+      youtube: `UClbv-gIWvuncgfd5umYL3mg`
     },
   },
   plugins: [

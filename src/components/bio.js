@@ -20,6 +20,8 @@ const Bio = () => {
           }
           social {
             twitter
+            github
+            youtube
           }
         }
       }
@@ -45,9 +47,17 @@ const Bio = () => {
       {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
+          {` `} Follow me on {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Follow me on Twitter
+            Twitter
+          </a>
+          ,{` `}
+          <a href={`https://github.com/${social?.github || ``}`}>
+            GitHub
+          </a>
+          , and {` `}
+          <a href={`https://youtube.com/channel/${social?.youtube || ``}`}>
+            YouTube
           </a>
         </p>
       )}
