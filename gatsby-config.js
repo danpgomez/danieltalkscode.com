@@ -8,7 +8,7 @@ module.exports = {
     description: `My journey through Android development.`,
     siteUrl: `https://danieltalkscode.com`,
     social: {
-      twitter: `danieltalkscode`,
+      mastodon: `@danieltalkscode`,
       github: `danpgomez`,
       youtube: `UClbv-gIWvuncgfd5umYL3mg`
     },

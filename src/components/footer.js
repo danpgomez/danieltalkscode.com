@@ -1,11 +1,11 @@
 import React from 'react'
 
-import twitter from '../images/twitter-logo.png'
+import mastodon from '../images/mastodon-logo.svg'
 import youtube from '../images/youtube-logo.png'
 import github from '../images/github-logo.png'
 
 const links = [
-    { url: 'https://twitter.com/danieltalkscode/', label: 'Twitter', icon: twitter },
+    { url: 'https://fosstodon.org/@danieltalkscode', label: 'Mastodon', icon: mastodon },
     { url: 'https://www.youtube.com/channel/UClbv-gIWvuncgfd5umYL3mg', label: 'YouTube', icon: youtube },
     { url: 'https://github.com/danpgomez/', label: 'GitHub', icon: github }
 ]
