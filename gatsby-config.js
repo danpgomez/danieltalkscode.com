@@ -10,7 +10,7 @@ module.exports = {
     social: {
       mastodon: `@danieltalkscode`,
       github: `danpgomez`,
-      youtube: `UClbv-gIWvuncgfd5umYL3mg`
+      youtube: `@danieltalkscode`
     },
   },
   plugins: [

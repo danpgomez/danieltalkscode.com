@@ -56,7 +56,7 @@ const Bio = () => {
             GitHub
           </a>
           , and {` `}
-          <a href={`https://youtube.com/channel/${social?.youtube || ``}`}>
+          <a href={`https://youtube.com/${social?.youtube || ``}`}>
             YouTube
           </a>
         </p>
