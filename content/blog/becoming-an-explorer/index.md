@@ -2,8 +2,8 @@
 title: "Becoming an Explorer"
 date: "2024-06-17"
 featuredImage:
-  src: "./images/explorer.jpeg
-  alt: "Becoming an Explorer"
+  src: "./images/explorer.jpeg"
+  alt: "Boat sailing at night. Photo by Johannes Plenio on Unsplash"
 ---
 
 Have you ever felt overwhelmed or paralyzed by a decision, particularly when making a career choice? If so, this post is for you. While it may not solve all your problems, it offers a mindset shift that could help.
