@@ -3,12 +3,13 @@ module.exports = {
     title: `Daniel Talks Code`,
     author: {
       name: `Daniel Perez-Gomez`,
-      summary: `who is currently a Senior Software Engineer in Test working on becoming an Android developer.`,
+      summary: `who is currently a Senior Software Engineer in Test working on becoming a front-end software developer.`,
     },
-    description: `My journey through Android development.`,
+    description: `My journey through software development.`,
     siteUrl: `https://danieltalkscode.com`,
     social: {
-      mastodon: `@danieltalkscode`,
+      bluesky: `danieltalkscode.bsky.social`,
+      mastodon: `@danpgomez`,
       github: `danpgomez`,
       youtube: `@danieltalkscode`
     },
