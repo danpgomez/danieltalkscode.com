@@ -6,7 +6,7 @@ import youtube from '../images/youtube-logo.png'
 import github from '../images/github-logo.png'
 
 const links = [
-    { url: 'https://bsky.app/profile/danieltalkscode.bsky.social', label: 'Bluesky', icon: bluesky }
+    { url: 'https://bsky.app/profile/danieltalkscode.bsky.social', label: 'Bluesky', icon: bluesky },
     { url: 'https://mastodon.social/@danpgomez', label: 'Mastodon', icon: mastodon },
     { url: 'https://www.youtube.com/@danieltalkscode', label: 'YouTube', icon: youtube },
     { url: 'https://github.com/danpgomez/', label: 'GitHub', icon: github }
