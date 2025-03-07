@@ -48,6 +48,10 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `} Follow me on {` `}
+          <a href={`https://bsky.app/profile/${social?.mastodon || ``}`}>
+            Bluesky
+          </a>
+          ,{` `}
           <a href={`https://fosstodon.org/${social?.mastodon || ``}`}>
             Mastodon
           </a>
