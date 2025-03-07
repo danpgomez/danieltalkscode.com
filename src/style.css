@@ -353,6 +353,8 @@ pre[class*="language-"] {
 
 .footer nav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 0.25rem;
   margin: 0 1rem;
 }
@@ -365,6 +367,11 @@ pre[class*="language-"] {
   font-size: 0.9rem;
   line-height: 1.2;
   padding: 0 0.5rem;
+}
+
+.footer span {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer a:hover {
