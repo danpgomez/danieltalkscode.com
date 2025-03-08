@@ -8,7 +8,7 @@ module.exports = {
     description: `My journey through software development.`,
     siteUrl: `https://danieltalkscode.com`,
     social: {
-      bluesky: `danieltalkscode.bsky.social`,
+      bluesky: `danieltalkscode.com`,
       mastodon: `@danpgomez`,
       github: `danpgomez`,
       youtube: `@danieltalkscode`
