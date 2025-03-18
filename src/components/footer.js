@@ -1,13 +1,11 @@
 import React from 'react'
 
 import bluesky from '../images/Bluesky_Logo.svg.png'
-import mastodon from '../images/mastodon-logo.svg'
 import youtube from '../images/youtube-logo.png'
 import github from '../images/github-logo.png'
 
 const links = [
     { url: 'https://bsky.app/profile/danieltalkscode.com', label: 'Bluesky', icon: bluesky },
-    { url: 'https://mastodon.social/@danpgomez', label: 'Mastodon', icon: mastodon },
     { url: 'https://www.youtube.com/@danieltalkscode', label: 'YouTube', icon: youtube },
     { url: 'https://github.com/danpgomez/', label: 'GitHub', icon: github }
 ]

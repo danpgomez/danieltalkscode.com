@@ -9,7 +9,6 @@ module.exports = {
     siteUrl: `https://danieltalkscode.com`,
     social: {
       bluesky: `danieltalkscode.com`,
-      mastodon: `@danpgomez`,
       github: `danpgomez`,
       youtube: `@danieltalkscode`
     },
