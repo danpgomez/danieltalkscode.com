@@ -20,7 +20,6 @@ const Bio = () => {
           }
           social {
             bluesky
-            mastodon
             github
             youtube
           }
@@ -51,10 +50,6 @@ const Bio = () => {
           {` `} Follow me on {` `}
           <a href={`https://bsky.app/profile/${social?.bluesky || ``}`}>
             Bluesky
-          </a>
-          ,{` `}
-          <a href={`https://mastodon.social/${social?.mastodon || ``}`}>
-            Mastodon
           </a>
           ,{` `}
           <a href={`https://github.com/${social?.github || ``}`}>
