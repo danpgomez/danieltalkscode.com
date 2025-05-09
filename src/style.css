@@ -173,7 +173,7 @@ ol {
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
   margin-bottom: var(--spacing-8);
-  list-style-position: outside;
+  list-style-position: inside;
   list-style-image: none;
 }
 
@@ -392,13 +392,13 @@ pre[class*="language-"] {
 }
 
 @media screen and (min-width: 700px) {
-  ol {
+  .blog-post-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 1060px) {
-  ol {
+  .blog-post-grid {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
