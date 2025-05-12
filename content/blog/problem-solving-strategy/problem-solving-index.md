@@ -12,7 +12,7 @@ One of the most important skills in programming and software development is prob
 
 ## The General Strategy
 
-Most videos and articles I've come across seem to reference the approach outlined in the book "How To Solve It" by George Polya:
+Most videos and articles I've come across seem to reference the approach outlined in the book ["How To Solve It" by George Polya](https://www.thriftbooks.com/w/how-to-solve-it-a-new-aspect-of-mathematical-method-princeton-science-library_george-plya/261545/#edition=1910486&idiq=4039747):
 
 1. Understand the problem
 2. Formulate a plan
@@ -32,10 +32,10 @@ Read it multiple times and try to define any terms you don't fully understand, t
 
 ### Step 2. Formulate a Plan
 
-Using pseudocode write out each step that you'll take in detail. Don't worry about using any code languguage specific syntax during this stage since you're essentially "prototyping" your solution. Using plain every-day language focus on how you would convert the given data into the desired output. Separating the "planning/problem solving" part from the "coding" part helps you avoid mistakes and can even help when naming variables and functions later based on what that step of the plan is intended to do. Here are some additional tips to keep in mind:
+Using pseudocode write out each step that you'll take in detail. Don't worry about using any code language specific syntax during this stage since you're essentially "prototyping" your solution. Using plain every-day language focus on how you would convert the given data into the desired output. Separating the "planning/problem solving" part from the "coding" part helps you avoid mistakes and can even help when naming variables and functions later based on what that step of the plan is intended to do. Here are some additional tips to keep in mind:
 
 - Break down the problem into small steps
-- Make your own examples. The ones provided could be a trick. Feel free to draw it out if needed.
+- Make your own examples and even feel free to draw it out if needed.
 - If problem provides any constraints these can hint at what data structure or algorithm to use.
 - See if you can refine your pseudocode algorithm before moving on to the implementation step.
 
@@ -53,9 +53,9 @@ At this point you've implemented an algorithm that solves the problem. But you'r
 
 ### BONUS 🤩: Build a Mental Map of Problems to Solutions
 
-One of the most frequent suggestions I saw in multiple tutorials was to gradually begin building a mental, and even physical, catalog of problems you solve and their respective solutions. This will help you begin recognizing patterns when you encounter new problems. Both [Colin Galen's tutorial](https://youtu.be/1f6N2UrCK6o?si=LMPHtox22oUlZjyr) and [Sahil & Sarra's tutorial](https://youtu.be/43i7fk4V74s?si=0JDqgr_TxMuJa76M) use a similar concepts from the book ["Thinking Fast and Slow" by Daniel Kahneman](https://www.thriftbooks.com/w/thinking-fast-and-slow_daniel-kahneman/247754/#edition=7203718&idiq=10487605) to ephasize the importance of deliberate practice to build up pattern recognition. I've not red this book yet but both of the mentioned tutorials talk about the concept of building up your intuition, or "fast brain" like the book says, in a similar way to how you train an AI model:
+One of the most frequent suggestions I saw in multiple tutorials was to gradually begin building a mental, and even physical, catalog of problems you solve and their respective solutions. This will help you begin recognizing patterns when you encounter new problems. Both [Colin Galen's tutorial](https://youtu.be/1f6N2UrCK6o?si=LMPHtox22oUlZjyr) and [Sahil & Sarra's tutorial](https://youtu.be/43i7fk4V74s?si=0JDqgr_TxMuJa76M) use a similar concepts from the book ["Thinking Fast and Slow" by Daniel Kahneman](https://www.thriftbooks.com/w/thinking-fast-and-slow_daniel-kahneman/247754/#edition=7203718&idiq=10487605) to emphasize the importance of deliberate practice to build up pattern recognition. I've not read this book yet but both of the mentioned tutorials talk about the concept of building up your intuition, or "fast brain" like the book says, in a similar way to how you train an AI model:
 
-1. Feed your fast brain a lot of hard coding problems.
+1. Feed your fast brain a lot of coding problems.
 2. Break down these problems into components that can help you predict patterns.
 3. Develop your own library of components (ie. a spreadsheet) by solving more and more problems.
 
@@ -79,10 +79,6 @@ To a new string like this:
 
 `"i hope nobody decodes this message"`
 
-Some additional thoughts:
-
-- Could I do this without creating an additional string? Is that necessary?
-
 ### Step 2: Formulate a Plan
 
 I decide to go with my first idea and create a map of each letter to it's corresponding "decoded" letter. Here's my pseudocode.
@@ -95,7 +91,7 @@ function decode(message) {
   // for each 'char' in 'message' string
   // if 'char' is NOT a space
   // find corresponding char in decoded letters
-  // add decoded letter to 'soltion' string
+  // add decoded letter to 'solution' string
   // return 'solution' string
 }
 ```
@@ -181,7 +177,7 @@ This is a super important step that gets often overlooked but it can provide the
   - Creating a string of the `alphabet`
   - Creating a reversed copy of that alphabet string
   - Getting the index of the `currentChar` within the `alphabet` and then
-  - Looking up the corresponding value in the `reversedAlphabet` using the index fromt he previous step.
+  - Looking up the corresponding value in the `reversedAlphabet` using the index from the previous step.
 - I also switched my `solution` string to an array because I realized that concatenating to a string within the loop would create a new string every time causing the time complexity of the algorithm to be O(n^2). However, with an array I can push new characters (O(1)) and then convert the array to a string using `.join('')` before returning it at the end of the function. Result: O(n) time complexity with O(n) space complexity for the output string. ✨
 
 Here's my solution:
@@ -217,4 +213,4 @@ function isLetter(character) {
 
 ## Conclusion and Lessons Learned
 
-I really enjoyed researching this topic and going through this exersise. Taking time to use a strategy when solving coding problems can be incredibly useful and provide both time saving benefits as well as opportunities to learn in an efficient way. Remember to not rush through each step since this can lead to time consuming errors. I hope you ejoyed this post and would love to hear your thoughts in the comments below. Thanks!
+I really enjoyed researching this topic and going through this exercise. Taking time to use a strategy when solving coding problems can be incredibly useful and provide both time saving benefits as well as opportunities to learn in an efficient way. Remember to not rush through each step since this can lead to time consuming errors. I hope you enjoyed this post and would love to hear your thoughts in the comments below. Thanks!
