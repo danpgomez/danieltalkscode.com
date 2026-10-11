@@ -10,7 +10,7 @@ module.exports = {
     social: {
       bluesky: `danieltalkscode.com`,
       github: `danpgomez`,
-      youtube: `@danieltalkscode`
+      youtube: `@danieltalkscode`,
     },
   },
   plugins: [
@@ -128,5 +128,6 @@ module.exports = {
         icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-meta-redirect`,
   ],
 }
